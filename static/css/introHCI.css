@@ -40,12 +40,7 @@
      color: #008bff;
 }
 
-.nav > li > .menu-link {
-     background-color: #222;
-     color: #008bff;
-}
-
-.nav > li > .menu-link:visited {
+.nav > li > .menu-link:link, .nav > li > .menu-link:visited {
      background-color: #222;
 }
 
@@ -57,39 +52,59 @@
      font-weight: bold;
 }
 
-#leftCol {
+.menu {
      margin: 0px;
      margin-top: 10px;
      padding: 0px;
      padding-left: 0px;
 }
 
-.section1 {
+.divider {
+     color:   #000;
+     opacity: 0;
+     margin-top: 25px;
+}
+
+.content-area {
      color: #ddd;
      text-align: center;
+     padding:    0px;
+     background-image:      url(../images/boats.jpeg);
+     background-attachment: fixed;
+     background-size:       cover;
+     overflow:              hidden;
+}
+
+row {
+     padding: 0px;
+}
+
+.fill {
+     background-color: #222;
+     padding-top: 10px;
+     padding-bottom: 10px;
 }
 
 .intro {
      font-size:   2em;
      font-weight: bold;
+     background-color: #222;
      color:       #fff;
-     padding:     10px;
-     padding-top: 30px;
 }
 
-.rest {
+.projects {
      padding-top:    10px;
      padding-bottom: 10px;
 }
 
-.project-description {
-     font-size:   1.5em;
+.projects-description {
+     font-size:  1.5em;
      font-style: italic;
      color:      #eee;
      padding-bottom: 5px;
 }
 
-.project-box {
+.projects-box {
      margin: 0 auto;
      padding: 15px;
      background-color: #1149e8;
@@ -99,7 +114,22 @@
      text-align: left;
 }
 
-.project-hl {
+.projects-hl {
      color: #fff;
      font-weight: bold;
+}
+
+.text-box {
+     padding: 15px;
+     background-color: #222;
+     font-size: 1em;
+     text-align: left;
+}
+
+.footer {
+     width: 100%;
+     padding: 10px;
+     color: #eee;
+     text-align: center;
+     font-size: 0.8em;
 }
